@@ -1,0 +1,17 @@
+# Site settings
+title: Mi sitio Jekyll
+email: avargase1@miumg.edu.gt
+description: Sitio web creado con Jekyll
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+collections:
+  proyectos:
+    output: true
+    permalink: /proyectos/:name/
+
+
+# Build settings
+markdown: kramdown
